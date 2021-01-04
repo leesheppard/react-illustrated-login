@@ -1,0 +1,11 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+.idea
+.vercel
+.vscode
+.DS_Store
+node_modules
+
