@@ -1,0 +1,93 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Cartoons are subject to copyright © 2020 by Lee Sheppard [lee@leesheppard.com] */
+
+body {
+	background-color: #ececec;
+	font-family: Avenir, Helvetica, sans-serif;
+}
+
+.form {
+	background-color: white;
+	border: #ccc solid 1px;
+	border-radius: .5rem;
+	box-shadow: 0px 0px 4px #ccc;
+	padding: 0 2rem 2rem;
+	
+	& label {
+		color: #ccc;
+		font-size: 0.6em;
+	}
+	
+	& input {
+		border: 1px solid #ececec;
+		margin-bottom: 1rem;
+		padding: 0.4rem;
+		width: 235px;
+	}
+}
+
+.content {
+	margin: 3rem auto;
+	width: 20rem;
+	
+	& .cartoon {
+	width: 150px;
+	}
+	
+	& button {
+		background-color: #f75e9b;
+		border: none;
+		border-radius: 0.5rem;
+		margin: .5rem 1rem 0 0;
+		padding: .8rem;
+		color: #f1f1f1;
+		width: 100%;
+	}
+	
+	& button:hover {
+		background-color: #ffa9cd;
+	}
+}
+
+.psw {
+	font-size: 0.8rem;
+	padding: 1rem;
+	margin: auto;
+	
+	& a {
+		text-decoration: none;
+	}
+}
+
+.image-container {
+	border-bottom: 1px solid #ececec;
+	margin: auto;
+	height: 170px;
+	width: 150px;
+}
+
+.login-welcome,
+.login-username,
+.login-password {
+	background-image: url(https://res.cloudinary.com/leesheppard/image/upload/v1607662924/artwork/login-sprite-colour.png);
+	background-repeat: no-repeat;
+	image-rendering: auto;
+}
+
+.login-username {
+	background-position: 0 -570px;
+}
+
+.login-password {
+	background-position: 0 -380px;
+}
+
+.copyright {
+	color: grey;
+	font-size: 10px;
+	text-align: center;
+}
